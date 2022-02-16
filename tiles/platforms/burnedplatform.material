@@ -1,0 +1,20 @@
+{
+  "materialId" : 29499,
+  "materialName" : "burnedplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "burnedplatform",
+  "shortdescription" : "Burned Wood Platform",
+  "description" : "A burned wood platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "burnedplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

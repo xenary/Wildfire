@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "burnedwood", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "coalore",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

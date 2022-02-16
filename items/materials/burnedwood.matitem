@@ -1,0 +1,11 @@
+{
+  "itemName" : "burnedwood",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "burnedwood.png",
+  "description" : "Wood that has been burned.",
+  "shortdescription" : "Burned Wood",
+
+  "materialId" : 29498
+}

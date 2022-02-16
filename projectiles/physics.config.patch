@@ -1,0 +1,36 @@
+[
+	{ 
+		"op": "add",
+		"path" : "/wfflame",
+		"value" : {
+		"gravityMultiplier" : 0.0,
+		"bounceFactor" : 0.0,
+		"maxMovementPerStep" : 0.0,
+
+		"collisionPoly" : [ [-0.5, -0.5], [0.5, -0.5], [0.5, 0.5], [-0.5, 0.5] ],
+		"ignorePlatformCollision" : false,
+
+		"airFriction" : 0.0,
+		"liquidFriction" : 0.0,
+		"speedLimit" : null,
+		"maximumCorrection" : 0.0
+		}
+	},
+	{ 
+		"op": "add",
+		"path" : "/wfflame2",
+		"value" : {
+		"gravityMultiplier" : 0.0,
+		"bounceFactor" : 0.0,
+		"maxMovementPerStep" : 0.0,
+
+		"collisionPoly" : [ [-1, -1], [1, -1], [1, 1], [-1, 1] ],
+		"ignorePlatformCollision" : false,
+
+		"airFriction" : 0.0,
+		"liquidFriction" : 0.0,
+		"speedLimit" : null,
+		"maximumCorrection" : 0.0
+		}
+	}
+]

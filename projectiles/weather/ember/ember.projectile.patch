@@ -1,0 +1,13 @@
+[
+	{ 
+		"op": "replace",
+		"path" : "/actionOnReap",
+		"value" : 
+		[
+			{
+			"action" : "projectile",
+			"type" : "molotovflame"
+			}
+		]
+	}
+]
