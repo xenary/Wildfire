@@ -4,8 +4,8 @@
   "category" : "platform",
   "rarity" : "Common",
   "inventoryIcon" : "burnedplatform.png",
-  "description" : "A burned platform.",
-  "shortdescription" : "Burned Platform",
+  "description" : "A burned wood platform.",
+  "shortdescription" : "Charred Platform",
 
   "materialId" : 29499
 }

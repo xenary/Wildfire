@@ -3,7 +3,7 @@
   "materialName" : "burnedplatform",
   "collisionKind" : "platform",
   "itemDrop" : "burnedplatform",
-  "shortdescription" : "Burned Wood Platform",
+  "shortdescription" : "Charred Platform",
   "description" : "A burned wood platform.",
   "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
   "category" : "Supports",

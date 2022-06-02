@@ -1,17 +1,31 @@
 [
-	{ 
-		"op": "add",
-		"path" : "/scripts",
-		"value" : [ "/scripts/applywfflame.lua" ]
-	},
-	{ 
-		"op": "replace",
-		"path" : "/animationCycle",
-		"value" : 0.3
-	},
-	{ 
-		"op": "replace",
-		"path" : "/frameNumber",
-		"value" : 2
-	}
+	[
+		{ 
+			"op" : "test",
+			"path" : "/scripts",
+			"inverse" : true
+		},
+		{
+			"op" : "add",
+			"path" : "/scripts",
+			"value" : []
+		}
+	],
+	[
+		{
+			"op" : "add",
+			"path" : "/scripts/-",
+			"value" : "/scripts/wildfire.lua"
+		}
+	],
+	[
+		{ 
+			"op" : "test",
+			"path" : "/hydrophobic"
+		},
+		{
+			"op" : "remove",
+			"path" : "/hydrophobic"
+		}
+	]
 ]

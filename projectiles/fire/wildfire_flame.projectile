@@ -1,0 +1,26 @@
+{
+  "projectileName" : "wildfire_flame",
+  "physics" : "wildfire_flame",
+  "bounces" : -1,
+  "timeToLive" : 3.3,
+  "speed" : 15,
+  "image" : "wildfire_flame.png",
+  "animationCycle" : 0.5,
+  "lightColor" : [235, 126, 2],
+  "frameNumber" : 4,
+  "piercing" : true,
+  "damagePoly" : [ [-4, -4], [4, -4], [4, 4], [-4, 4] ],
+  "scripts" : [ "/scripts/wildfire.lua" ],
+  "scriptDelta" : 30,
+  "damageKind" : "fire",
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "statusEffects" : [
+    "burning"
+  ],
+  "power" : 5,
+  "renderLayer" : "ForegroundTile",
+  "persistentAudio" : "/sfx/objects/torch.ogg",
+  "relatedPlantId" : false,
+  "fireStarterBonus" : false
+}

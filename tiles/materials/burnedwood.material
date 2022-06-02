@@ -4,7 +4,7 @@
   "particleColor" : [12, 11, 11, 255],
   "itemDrop" : "burnedwood",
   "description" : "Wood that has been burned.",
-  "shortdescription" : "Burned Wood",
+  "shortdescription" : "Charred Wood",
   "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
   "health" : 2,
   "category" : "materials",

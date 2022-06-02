@@ -1,7 +1,7 @@
 [
 	{ 
 		"op": "add",
-		"path" : "/wfflame",
+		"path" : "/wildfire_flame",
 		"value" : {
 		"gravityMultiplier" : 0.0,
 		"bounceFactor" : 0.0,
@@ -18,7 +18,7 @@
 	},
 	{ 
 		"op": "add",
-		"path" : "/wfflame2",
+		"path" : "/wildfire_flame2",
 		"value" : {
 		"gravityMultiplier" : 0.0,
 		"bounceFactor" : 0.0,

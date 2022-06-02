@@ -5,7 +5,7 @@
   "rarity" : "Common",
   "inventoryIcon" : "burnedwood.png",
   "description" : "Wood that has been burned.",
-  "shortdescription" : "Burned Wood",
+  "shortdescription" : "Charred Wood",
 
   "materialId" : 29498
 }

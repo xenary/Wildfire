@@ -1,7 +1,31 @@
 [
-	{ 
-		"op": "add",
-		"path" : "/scripts",
-		"value" : [ "/scripts/applywfflame.lua" ]
-	}
+	[
+		{ 
+			"op": "test",
+			"path" : "/scripts",
+			"inverse" : true
+		},
+		{
+			"op": "add",
+			"path" : "/scripts",
+			"value" : []
+		}
+	],
+	[
+		{
+			"op": "add",
+			"path" : "/scripts/-",
+			"value" : "/scripts/wildfire.lua"
+		}
+	],
+	[
+		{ 
+			"op": "test",
+			"path" : "/hydrophobic"
+		},
+		{
+			"op": "remove",
+			"path" : "/hydrophobic"
+		}
+	]
 ]
